@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <AssemblyVersion>1.0.0.1</AssemblyVersion>
+    <FileVersion>1.0.0.1</FileVersion>
+    <Title>UniqueKeys</Title>
+    <PackageId>SlugEnt.UniqueKeys</PackageId>
+    <Authors>Scott Herrmann</Authors>
+    <Company>Slug Enterprises</Company>
+
+    <Description>A class mainly used to assist with creating short unique Text strings for unit tests where a GUID is too complex.</Description>
+
+    <Copyright>Scott Herrmann 2018</Copyright>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageTags>time;guid</PackageTags>
+    <PackageProjectUrl>https://bitbucket.org/wshpersonal/uniquekeys/wiki/Home</PackageProjectUrl>
+    <RepositoryUrl>https://bitbucket.org/wshpersonal/uniquekeys/src</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+
+    <PackageReleaseNotes>This is the initial release to Nuget</PackageReleaseNotes>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="SlugEnt.TimeGuid" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
