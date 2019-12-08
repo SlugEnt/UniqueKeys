@@ -25,13 +25,6 @@ using SlugEnt;
 
 
 namespace SlugEnt.UnitTest {
-    internal class TestBeaker {
-        private string _keyName;
-        private string _keyseparator;
-        private string _tgseparator;
-    }
-
-
     [Parallelizable]
     public class TestUniqueKeys {
         // Helper method - tries to keep all code within 1 physical second.
