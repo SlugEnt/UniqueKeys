@@ -13,13 +13,13 @@
     {
       "Name": "UniqueKeys",
       "Deploy": "Nuget",
-      "Framework": "netcoreapp2.0",
+      "Framework": "net5.0",
       "IsTestProject": false
     },
     {
       "Name": "UniqueKeys_Test",
       "Deploy": "None",
-      "Framework": "netcoreapp2.1",
+      "Framework": "net5.0",
       "IsTestProject": true
     }
   ]
