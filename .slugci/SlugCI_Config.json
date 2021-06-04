@@ -1,0 +1,26 @@
+{
+  "UseCodeCoverage": true,
+  "CodeCoverageThreshold": 90,
+  "DeployProdRoot": null,
+  "DeployAlphaRoot": null,
+  "DeployBetaRoot": null,
+  "DeployDevRoot": null,
+  "DeployToVersionedFolder": true,
+  "DeployFolderUsesSemVer": true,
+  "DeployToAssemblyFolders": false,
+  "GitRemote": null,
+  "Projects": [
+    {
+      "Name": "UniqueKeys",
+      "Deploy": "Nuget",
+      "Framework": "net5.0",
+      "IsTestProject": false
+    },
+    {
+      "Name": "UniqueKeys_Test",
+      "Deploy": "None",
+      "Framework": "net5.0",
+      "IsTestProject": true
+    }
+  ]
+}
