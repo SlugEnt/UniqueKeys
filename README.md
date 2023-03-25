@@ -4,7 +4,7 @@ UniqueKeys is a C# class whose real usefulness may be limited.  I use it mainly 
 is important that the keys have some meaning built into them, can be easily typed into other applications for debugging or other
 purposes and who are guaranteed to be unique across many runs of the application for any given day.
 
-The use of this class in a production situation would be very limitingr convenience. Go ahead and edit it.
+The use of this class in a production situation would be very limiting.
 
 ## Overview
 UniqueKeys builds string "keys" in one of several formats.  However, no matter how formatted, it really has 3 distinct parts:
