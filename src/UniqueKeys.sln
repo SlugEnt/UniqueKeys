@@ -5,7 +5,10 @@ VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7F0B9060-F46C-4427-BBD1-926724346E93}"
 	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		..\Scripts\PushToNuget_Local.cmd = ..\Scripts\PushToNuget_Local.cmd
 		..\README.md = ..\README.md
+		..\Scripts\ReleaseToPublicNuget.cmd = ..\Scripts\ReleaseToPublicNuget.cmd
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UniqueKeys", "UniqueKeys\UniqueKeys.csproj", "{6EB66AA2-405C-4779-8C97-3A49932A5524}"
